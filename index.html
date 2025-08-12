@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!by Mohammd Mahdi shafighi>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محمد مهدی شفیقی - متخصص هوش مصنوعی و MLOps</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            background-color: #111827;
+            color: #d1d5db;
+        }
+        .glass-card {
+            background: rgba(31, 41, 55, 0.5);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- منوی ناوبری -->
+    <nav class="bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center space-x-4 space-x-reverse">
+                    <a href="index.html" class="text-white font-bold text-xl">محمدرضا کارجو</a>
+                </div>
+                <div class="hidden md:flex items-center space-x-6 space-x-reverse">
+                    <a href="index.html" class="text-blue-400 font-semibold border-b-2 border-blue-400 py-2">خانه</a>
+                    <a href="resume.html" class="text-gray-300 hover:text-blue-400 transition-colors">رزومه</a>
+                    <a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">پروژه‌ها</a>
+                    <a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">مقالات</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- بخش اصلی (Hero) -->
+    <header class="py-20 md:py-32 text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight">پل زدن میان <span class="text-blue-400">تحقیق</span> و <span class="text-blue-400">تولید</span> در هوش مصنوعی</h1>
+            <p class="mt-6 text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
+                من محمدرضا کارجو، دانشجوی ارشد هوش مصنوعی هستم و با اشتیاق به دنیای MLOps، به دنبال ساخت سیستم‌های هوشمند پایدار و مقیاس‌پذیر هستم.
+            </p>
+            <div class="mt-10">
+                <a href="resume.html" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-full transition-transform transform hover:scale-105">
+                    مشاهده رزومه کامل
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-12">
+        <!-- بخش پروژه‌های کلیدی -->
+        <section id="projects">
+            <h2 class="text-3xl font-bold text-center text-white mb-12">پروژه‌های کلیدی</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- کارت پروژه ۱ -->
+                <div class="glass-card rounded-xl p-6 flex flex-col">
+                    <h3 class="font-bold text-xl text-blue-400 mb-2">پایپ‌لاین CI/CD برای ML</h3>
+                    <p class="text-gray-400 text-sm flex-grow">طراحی یک خط لوله کامل برای اتوماتیک‌سازی تست، ساخت و بسته‌بندی مدل‌های یادگیری ماشین.</p>
+                    <div class="mt-4">
+                        <span class="bg-gray-600 text-xs font-medium px-2.5 py-1 rounded-full">Jenkins</span>
+                        <span class="bg-gray-600 text-xs font-medium px-2.5 py-1 rounded-full">Docker</span>
+                    </div>
+                </div>
+                <!-- کارت پروژه ۲ -->
+                <div class="glass-card rounded-xl p-6 flex flex-col">
+                    <h3 class="font-bold text-xl text-blue-400 mb-2">سیستم مانیتورینگ مدل</h3>
+                    <p class="text-gray-400 text-sm flex-grow">توسعه یک سیستم برای نظارت زنده بر عملکرد API، جمع‌آوری متریک‌ها و تشخیص افت عملکرد (Drift).</p>
+                    <div class="mt-4">
+                        <span class="bg-gray-600 text-xs font-medium px-2.5 py-1 rounded-full">Prometheus</span>
+                        <span class="bg-gray-600 text-xs font-medium px-2.5 py-1 rounded-full">Grafana</span>
+                    </div>
+                </div>
+                <!-- کارت پروژه ۳ -->
+                <div class="glass-card rounded-xl p-6 flex flex-col">
+                    <h3 class="font-bold text-xl text-blue-400 mb-2">کنترل کیفیت با بینایی کامپیوتر</h3>
+                    <p class="text-gray-400 text-sm flex-grow">ساخت یک مدل یادگیری عمیق برای شناسایی خودکار قطعات معیوب صنعتی از روی تصاویر.</p>
+                    <div class="mt-4">
+                        <span class="bg-gray-600 text-xs font-medium px-2.5 py-1 rounded-full">YOLOv8</span>
+                        <span class="bg-gray-600 text-xs font-medium px-2.5 py-1 rounded-full">TensorFlow</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- بخش آخرین مقالات -->
+        <section id="articles" class="mt-20">
+            <h2 class="text-3xl font-bold text-center text-white mb-12">آخرین مقالات</h2>
+            <div class="max-w-2xl mx-auto">
+                <div class="glass-card rounded-xl p-6 mb-6">
+                    <h3 class="font-bold text-xl text-blue-400 mb-2">چگونه اولین پایپ‌لاین CI/CD خود را با Jenkins ساختم؟</h3>
+                    <p class="text-gray-400 text-sm">یک راهنمای عملی و قدم به قدم برای اتوماتیک‌سازی فرآیند ساخت و تست یک اپلیکیشن یادگیری ماشین با استفاده از Jenkins و Docker.</p>
+                    <a href="#" class="text-blue-400 hover:underline text-sm mt-4 inline-block">ادامه مطلب...</a>
+                </div>
+                 <!-- مقالات آینده اینجا اضافه می‌شوند -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-8 mt-12 border-t border-gray-700">
+        <p class="text-gray-500 text-sm">&copy; ۲۰۲۵ - تمام حقوق برای شخص حقیقی محمد مهدی شفیقی محفوظ است.</p>
+    </footer>
+
+</body>
+</html>

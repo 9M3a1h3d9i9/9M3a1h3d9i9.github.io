@@ -1,115 +1,88 @@
 <!DOCTYPE html>
-
-<!by Mohammd Mahdi shafighi>
-<html lang="fa" dir="rtl">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>محمد مهدی شفیقی - متخصص هوش مصنوعی و MLOps</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Vazirmatn', sans-serif;
-            background-color: #111827;
-            color: #d1d5db;
-        }
-        .glass-card {
-            background: rgba(31, 41, 55, 0.5);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mohammad Mahdi Shafighi — M.Sc. Artificial Intelligence portfolio focused on network intelligence, reinforcement learning, graph learning, and applied AI.">
+  <title>Mohammad Mahdi Shafighi | AI Research Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; background: #0b1120; color: #dbe4f0; }
+    .glass { background: rgba(15, 23, 42, .72); backdrop-filter: blur(12px); border: 1px solid rgba(148,163,184,.14); }
+    .grid-bg { background-image: linear-gradient(rgba(148,163,184,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(148,163,184,.06) 1px, transparent 1px); background-size: 36px 36px; }
+  </style>
 </head>
 <body class="antialiased">
+  <nav class="sticky top-0 z-50 border-b border-slate-800/80 bg-slate-950/85 backdrop-blur">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
+      <a href="index.html" class="font-bold tracking-tight text-white">M. M. Shafighi</a>
+      <div class="hidden gap-6 text-sm text-slate-300 md:flex">
+        <a class="text-cyan-400" href="index.html">Home</a>
+        <a class="hover:text-cyan-400" href="#research">Research</a>
+        <a class="hover:text-cyan-400" href="#projects">Projects</a>
+        <a class="hover:text-cyan-400" href="resume.html">Resume</a>
+        <a class="hover:text-cyan-400" href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
 
-    <!-- منوی ناوبری -->
-    <nav class="bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-4">
-            <div class="flex justify-between items-center h-16">
-                <div class="flex items-center space-x-4 space-x-reverse">
-                    <a href="index.html" class="text-white font-bold text-xl">محمد مهدی شفیقی </a>
-                </div>
-                <div class="hidden md:flex items-center space-x-6 space-x-reverse">
-                    <a href="index.html" class="text-blue-400 font-semibold border-b-2 border-blue-400 py-2">خانه</a>
-                    <a href="resume.html" class="text-gray-300 hover:text-blue-400 transition-colors">رزومه</a>
-                    <a href="certificates.html class="text-gray-300 hover:text-blue-400 transition-colors">گواهی‌نامه‌ها</a>
-                    <a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">پروژه‌ها</a>
-                    <a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">مقالات</a>
-                </div>
-            </div>
+  <header class="grid-bg border-b border-slate-800">
+    <div class="mx-auto max-w-6xl px-5 py-24 md:py-32">
+      <div class="max-w-4xl">
+        <p class="mb-5 text-sm font-semibold uppercase tracking-[.22em] text-cyan-400">M.Sc. Artificial Intelligence</p>
+        <h1 class="text-4xl font-extrabold leading-tight text-white md:text-6xl">AI Researcher building intelligent systems for real-world networks.</h1>
+        <p class="mt-7 max-w-3xl text-lg leading-8 text-slate-400">I work at the intersection of network intelligence, optimization, deep reinforcement learning, graph learning, and applied AI. My current focus is turning research ideas into reproducible, testable software.</p>
+        <div class="mt-9 flex flex-wrap gap-3">
+          <a href="#projects" class="rounded-lg bg-cyan-500 px-6 py-3 font-semibold text-slate-950 hover:bg-cyan-400">Explore projects</a>
+          <a href="resume.html" class="rounded-lg border border-slate-700 px-6 py-3 font-semibold text-white hover:border-cyan-500">View resume</a>
+          <a href="https://github.com/9M3a1h3d9i9" class="rounded-lg border border-slate-700 px-6 py-3 font-semibold text-slate-300 hover:text-white">GitHub</a>
         </div>
-    </nav>
+      </div>
+    </div>
+  </header>
 
-    <!-- بخش اصلی (Hero) -->
-    <header class="py-20 md:py-32 text-center">
-        <div class="max-w-4xl mx-auto px-4">
-            <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight">پل زدن میان <span class="text-blue-400">تحقیق</span> و <span class="text-blue-400">تولید</span> در هوش مصنوعی</h1>
-            <p class="mt-6 text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
-                من محمد مهدی شفیقی، دانشجوی ارشد هوش مصنوعی هستم و با اشتیاق به دنیای MLOps، به دنبال ساخت سیستم‌های هوشمند پایدار و مقیاس‌پذیر هستم.
-            </p>
-            <div class="mt-10">
-                <a href="resume.html" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-full transition-transform transform hover:scale-105">
-                    مشاهده رزومه کامل
-                </a>
-            </div>
-        </div>
-    </header>
+  <main class="mx-auto max-w-6xl px-5 py-16">
+    <section id="research">
+      <div class="mb-10">
+        <p class="text-sm font-semibold uppercase tracking-wider text-cyan-400">Research direction</p>
+        <h2 class="mt-2 text-3xl font-bold text-white">From graphs and learning to network decisions.</h2>
+      </div>
+      <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+        <div class="glass rounded-xl p-6"><h3 class="font-bold text-white">Network Intelligence</h3><p class="mt-3 text-sm leading-6 text-slate-400">Optimization, resilience, bottleneck analysis, and monitoring.</p></div>
+        <div class="glass rounded-xl p-6"><h3 class="font-bold text-white">Deep RL</h3><p class="mt-3 text-sm leading-6 text-slate-400">Learning decision policies for dynamic environments.</p></div>
+        <div class="glass rounded-xl p-6"><h3 class="font-bold text-white">Graph Learning</h3><p class="mt-3 text-sm leading-6 text-slate-400">GNN/HGNN and complex-network representations.</p></div>
+        <div class="glass rounded-xl p-6"><h3 class="font-bold text-white">Applied AI</h3><p class="mt-3 text-sm leading-6 text-slate-400">Biomedical signals, medical imaging, and ML systems.</p></div>
+      </div>
+    </section>
 
-    <main class="max-w-6xl mx-auto px-4 py-12">
-        <!-- بخش پروژه‌های کلیدی -->
-        <section id="projects">
-            <h2 class="text-3xl font-bold text-center text-white mb-12">پروژه‌های کلیدی</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- کارت پروژه ۱ -->
-                <div class="glass-card rounded-xl p-6 flex flex-col">
-                    <h3 class="font-bold text-xl text-blue-400 mb-2">پایپ‌لاین CI/CD برای ML</h3>
-                    <p class="text-gray-400 text-sm flex-grow">طراحی یک خط لوله کامل برای اتوماتیک‌سازی تست، ساخت و بسته‌بندی مدل‌های یادگیری ماشین.</p>
-                    <div class="mt-4">
-                        <span class="bg-gray-600 text-xs font-medium px-2.5 py-1 rounded-full">Jenkins</span>
-                        <span class="bg-gray-600 text-xs font-medium px-2.5 py-1 rounded-full">Docker</span>
-                    </div>
-                </div>
-                <!-- کارت پروژه ۲ -->
-                <div class="glass-card rounded-xl p-6 flex flex-col">
-                    <h3 class="font-bold text-xl text-blue-400 mb-2">سیستم مانیتورینگ مدل</h3>
-                    <p class="text-gray-400 text-sm flex-grow">توسعه یک سیستم برای نظارت زنده بر عملکرد API، جمع‌آوری متریک‌ها و تشخیص افت عملکرد (Drift).</p>
-                    <div class="mt-4">
-                        <span class="bg-gray-600 text-xs font-medium px-2.5 py-1 rounded-full">Prometheus</span>
-                        <span class="bg-gray-600 text-xs font-medium px-2.5 py-1 rounded-full">Grafana</span>
-                    </div>
-                </div>
-                <!-- کارت پروژه ۳ -->
-                <div class="glass-card rounded-xl p-6 flex flex-col">
-                    <h3 class="font-bold text-xl text-blue-400 mb-2">کنترل کیفیت با بینایی کامپیوتر</h3>
-                    <p class="text-gray-400 text-sm flex-grow">ساخت یک مدل یادگیری عمیق برای شناسایی خودکار قطعات معیوب صنعتی از روی تصاویر.</p>
-                    <div class="mt-4">
-                        <span class="bg-gray-600 text-xs font-medium px-2.5 py-1 rounded-full">YOLOv8</span>
-                        <span class="bg-gray-600 text-xs font-medium px-2.5 py-1 rounded-full">TensorFlow</span>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section id="projects" class="mt-20">
+      <div class="mb-10">
+        <p class="text-sm font-semibold uppercase tracking-wider text-cyan-400">Selected work</p>
+        <h2 class="mt-2 text-3xl font-bold text-white">Featured projects</h2>
+      </div>
+      <div class="grid gap-6 md:grid-cols-2">
+        <article class="glass rounded-2xl p-7"><div class="flex items-center justify-between gap-4"><h3 class="text-xl font-bold text-white">NeuroBottleneck</h3><span class="text-xs text-cyan-400">Active research</span></div><p class="mt-4 text-sm leading-7 text-slate-400">Graph-based network optimization and resilience research using deep reinforcement learning and bottleneck analysis.</p><div class="mt-5 flex flex-wrap gap-2 text-xs text-slate-300"><span>GNN</span><span>DRL</span><span>Network Optimization</span></div><a class="mt-6 inline-block text-sm font-semibold text-cyan-400 hover:underline" href="https://github.com/9M3a1h3d9i9/NeuroBottleneck">View repository →</a></article>
+        <article class="glass rounded-2xl p-7"><div class="flex items-center justify-between gap-4"><h3 class="text-xl font-bold text-white">ECG-Autoencoder-CNN</h3><span class="text-xs text-cyan-400">Active development</span></div><p class="mt-4 text-sm leading-7 text-slate-400">Modular ECG representation-learning and arrhythmia classification pipeline with reproducible experiments and evaluation.</p><div class="mt-5 flex flex-wrap gap-2 text-xs text-slate-300"><span>Python</span><span>TensorFlow</span><span>MIT-BIH</span></div><a class="mt-6 inline-block text-sm font-semibold text-cyan-400 hover:underline" href="https://github.com/9M3a1h3d9i9/ECG-Autoencoder-CNN">View repository →</a></article>
+        <article class="glass rounded-2xl p-7"><div class="flex items-center justify-between gap-4"><h3 class="text-xl font-bold text-white">NetSpector</h3><span class="text-xs text-cyan-400">Prototype</span></div><p class="mt-4 text-sm leading-7 text-slate-400">Network monitoring and performance analysis focused on practical observability concepts such as latency, jitter, and packet loss.</p><div class="mt-5 flex flex-wrap gap-2 text-xs text-slate-300"><span>Networking</span><span>Monitoring</span><span>Python</span></div><a class="mt-6 inline-block text-sm font-semibold text-cyan-400 hover:underline" href="https://github.com/9M3a1h3d9i9/NetSpector">View repository →</a></article>
+        <article class="glass rounded-2xl p-7"><div class="flex items-center justify-between gap-4"><h3 class="text-xl font-bold text-white">ACDC-SAMMed3D</h3><span class="text-xs text-cyan-400">Research project</span></div><p class="mt-4 text-sm leading-7 text-slate-400">Medical image segmentation research exploring 3D foundation-model approaches on cardiac imaging.</p><div class="mt-5 flex flex-wrap gap-2 text-xs text-slate-300"><span>PyTorch</span><span>3D Vision</span><span>Medical AI</span></div><a class="mt-6 inline-block text-sm font-semibold text-cyan-400 hover:underline" href="https://github.com/9M3a1h3d9i9/ACDC-SAMMed3D">View repository →</a></article>
+      </div>
+    </section>
 
-        <!-- بخش آخرین مقالات -->
-        <section id="articles" class="mt-20">
-            <h2 class="text-3xl font-bold text-center text-white mb-12">آخرین مقالات</h2>
-            <div class="max-w-2xl mx-auto">
-                <div class="glass-card rounded-xl p-6 mb-6">
-                    <h3 class="font-bold text-xl text-blue-400 mb-2">چگونه اولین پایپ‌لاین CI/CD خود را با Jenkins ساختم؟</h3>
-                    <p class="text-gray-400 text-sm">یک راهنمای عملی و قدم به قدم برای اتوماتیک‌سازی فرآیند ساخت و تست یک اپلیکیشن یادگیری ماشین با استفاده از Jenkins و Docker.</p>
-                    <a href="blog/cicd-with-jenkins.html" class="text-blue-400 hover:underline text-sm mt-4 inline-block">ادامه مطلب...</a>
-                </div>
-                 <!-- مقالات آینده اینجا اضافه می‌شوند -->
-            </div>
-        </section>
-    </main>
+    <section class="mt-20 rounded-2xl border border-cyan-500/20 bg-cyan-500/5 p-8">
+      <p class="text-sm font-semibold uppercase tracking-wider text-cyan-400">Current priority</p>
+      <h2 class="mt-2 text-2xl font-bold text-white">Intelligent telecom network optimization</h2>
+      <p class="mt-4 max-w-3xl leading-7 text-slate-400">My current research direction connects graph representations, reinforcement learning, network KPIs, bottleneck detection, and resilience. The goal is to build systems that can analyze network state and support better optimization decisions.</p>
+    </section>
+  </main>
 
-    <footer class="text-center py-8 mt-12 border-t border-gray-700">
-        <p class="text-gray-500 text-sm">&copy; ۲۰۲۵ - تمام حقوق برای شخص حقیقی محمد مهدی شفیقی محفوظ است.</p>
-    </footer>
-
+  <footer id="contact" class="border-t border-slate-800">
+    <div class="mx-auto flex max-w-6xl flex-col gap-3 px-5 py-10 text-sm text-slate-500 md:flex-row md:items-center md:justify-between">
+      <p>© 2026 Mohammad Mahdi Shafighi. Built as a living research portfolio.</p>
+      <a class="text-cyan-400 hover:underline" href="https://github.com/9M3a1h3d9i9">github.com/9M3a1h3d9i9</a>
+    </div>
+  </footer>
 </body>
 </html>

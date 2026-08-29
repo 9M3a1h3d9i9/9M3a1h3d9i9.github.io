@@ -1,54 +1,46 @@
-بسم الله الرحمن الرحیم
+# Mohammad Mahdi Shafighi — AI Research Portfolio
 
-برنامه توسعه وب‌سایت شخصی من
-هدف کلی: تبدیل سایت فعلی از یک رزومه تک صفحه‌ای به یک پورتفولیوی کامل و پویا برای نمایش پروژه‌ها، مقالات و مسیر یادگیری من در حوزه هوش مصنوعی و MLOps.
+> **M.Sc. Artificial Intelligence | Network Intelligence | Reinforcement Learning | Graph Learning | Applied AI**
 
+This repository contains the personal portfolio website of **Mohammad Mahdi Shafighi** and documents selected research, engineering projects, and future directions.
 
+## Portfolio Positioning
 
+The portfolio is organized around four complementary areas:
 
+- **Telecom & Network Intelligence** — network optimization, resilience, monitoring, graph-based analysis, and deep reinforcement learning.
+- **Graph & Reinforcement Learning** — GNN/HGNN, complex networks, RL environments, and optimization.
+- **Biomedical AI** — ECG analysis and medical image segmentation.
+- **AI Engineering & Learning** — machine learning, deep learning, algorithms, and research software engineering.
 
-فاز اول (ماه اول): پایه‌ریزی ساختار جدید و طراحی صفحه اصلی
-فعلاً سایت فقط یک صفحه رزومه است. در قدم اول، می‌خواهم یک ساختار چند صفحه‌ای و حرفه‌ای برای آن ایجاد کنم.
+## Featured Projects
 
-اقدامات:
+| Project | Focus | Status |
+|---|---|---|
+| [NeuroBottleneck](https://github.com/9M3a1h3d9i9/NeuroBottleneck) | Intelligent network optimization and resilience with GNN/DRL | Active research |
+| [ECG-Autoencoder-CNN](https://github.com/9M3a1h3d9i9/ECG-Autoencoder-CNN) | ECG representation learning and arrhythmia classification | Active development |
+| [NetSpector](https://github.com/9M3a1h3d9i9/NetSpector) | Network monitoring and performance analysis | Prototype |
+| [ACDC-SAMMed3D](https://github.com/9M3a1h3d9i9/ACDC-SAMMed3D) | 3D medical image segmentation | Research project |
 
-اولین کارم این است که فایل index.html فعلی (که همان اینفوگرافی رزومه است) را به resume.html تغییر نام دهم تا رزومه صفحه اختصاصی خودش را داشته باشد.
+## Research Interests
 
-بعد، یک فایل index.html جدید می‌سازم که به عنوان صفحه اصلی و ویترین سایت عمل کند. در این صفحه یک معرفی کوتاه از خودم، خلاصه‌ای از بهترین پروژه‌ها و جدیدترین مقالاتم را قرار می‌دهم.
+- Mobile and telecom network optimization
+- Network monitoring and anomaly detection
+- Deep Reinforcement Learning (DRL)
+- Graph Neural Networks (GNN/HGNN)
+- Complex network analysis
+- Network resilience and bottleneck detection
+- Applied machine learning and deep learning
+- Biomedical signal and image analysis
 
-یک منوی ناوبری (Navigation Bar) ساده و ثابت در بالای تمام صفحات طراحی می‌کنم تا بازدیدکنندگان بتوانند به راحتی بین بخش‌های مختلف (خانه، رزومه، پروژه‌ها، مقالات) جابجا شوند.
+## Development Philosophy
 
+The repositories in this portfolio are intentionally presented with their **real development status**. Completed work is documented with reproducibility information and results; prototypes and research ideas are documented with explicit limitations and future roadmaps rather than being presented as finished systems.
 
+## Website
 
+The site is designed as a living research portfolio: projects, experiments, technical notes, and future research directions can be added incrementally.
 
+## Long-Term Vision
 
-فاز دوم (ماه دوم): نمایش عمیق اولین پروژه
-صرفاً لیست کردن پروژه‌ها کافی نیست. می‌خواهم جزئیات و چالش‌های هر پروژه را به خوبی نمایش دهم.
-
-اقدامات:
-
-برای شروع، پروژه "پیش‌بینی ریزش مشتری" را انتخاب می‌کنم.
-
-یک پوشه به نام projects می‌سازم و داخل آن، یک صفحه جدید به نام churn-prediction.html ایجاد می‌کنم.
-
-در این صفحه، داستان کامل پروژه را تعریف می‌کنم: از صورت مسئله و تحلیل داده‌ها گرفته تا نمایش کدهای کلیدی، نمودارها و نتایجی که به دست آوردم.
-
-در نهایت، از بخش پروژه‌ها در صفحه اصلی، به این صفحه جدید لینک می‌دهم.
-
-
-
-
-
-فاز سوم (ماه سوم): شروع به اشتراک‌گذاری دانش (راه‌اندازی وبلاگ)
-به نظرم به اشتراک گذاشتن چیزهایی که یاد می‌گیرم، بهترین راه برای تثبیت دانش است. برای همین، بخش مقالات سایت را راه‌اندازی می‌کنم.
-
-اقدامات:
-
-یک پوشه جدید به نام blog ایجاد می‌کنم.
-
-مقاله‌ای که قبلاً در مورد "ساخت پایپ‌لاین CI/CD با Jenkins" آماده کرده بودم را در یک فایل جدید به نام cicd-with-jenkins.html در این پوشه قرار می‌دهم و استایل مناسبی به آن می‌دهم.
-
-لینک این مقاله را در بخش "آخرین مقالات" صفحه اصلی قرار می‌دهم.
-
-چشم‌انداز آینده
-این برنامه فقط برای سه ماه اول است. قصدم این است که این چرخه را ادامه دهم و هر ماه با اضافه کردن یک پروژه یا مقاله جدید، این سایت را به عنوان یک رزومه زنده و یک نمایشگاه دائمی از فعالیت‌های حرفه‌ای خودم، به‌روز و فعال نگه دارم.
+Build practical and research-oriented AI systems that connect **learning, optimization, and real-world network intelligence**.
